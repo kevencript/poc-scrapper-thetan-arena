@@ -1,28 +1,25 @@
 {
-  "name": "api-comdono",
+  "name": "poc-scrapper-thetan-arena",
   "version": "1.0.0",
-  "description": "",
+  "description": "Scrapping for Tethan and create notifications",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
+  "author": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kevencript/serverless-puppeteer-app.git"
+    "url": "git+https://github.com/kevencript/poc-scrapper-thetan-arena.git"
   },
-  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kevencript/serverless-puppeteer-app/issues"
-  },
-  "homepage": "https://github.com/kevencript/serverless-puppeteer-app#readme",
   "dependencies": {
+    "axios": "^0.24.0",
     "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mariadb": "^2.1.4",
-    "nodemon": "^1.19.4",
-    "puppeteer": "^2.0.0",
-    "sequelize": "^5.21.2"
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.15",
+    "puppeteer": "^12.0.1"
   }
 }
