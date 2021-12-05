@@ -22,6 +22,8 @@ lib-cov
 coverage
 *.lcov
 
+routes/crawler/thg/secrets.json
+
 # nyc test coverage
 .nyc_output
 
