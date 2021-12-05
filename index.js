@@ -10,7 +10,7 @@ const app = express();
 const bathosUrl = "https://marketplace.thetanarena.com/?sort=PriceAsc&heroTypeIds=18&skinIds=&skinRarity=1&page=1"
 const serpUrl = "https://marketplace.thetanarena.com/?sort=PriceAsc&skinRarity=2&heroTypeIds=1&skinIds=&page=1"
 
-cron.schedule("* */40 * * * *", async () => {
+cron.schedule("* */45 * * * *", async () => {
   await Promise.all([
     await thgCrawler(
       mainUrl=bathosUrl, 
